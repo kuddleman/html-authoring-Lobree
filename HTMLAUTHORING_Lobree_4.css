@@ -1,0 +1,19 @@
+body {
+	font-family: verdana, sans-serif;
+	text-align: center;
+	font-size: 12pt;
+	line-height: 1.5em;
+}
+
+h1 {
+	color: crimson;
+	margin-bottom: 2em;
+}
+
+span {
+	font-weight: bold;
+}
+
+p#footer {
+	font-style: italic;
+}
