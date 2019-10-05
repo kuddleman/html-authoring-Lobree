@@ -1,0 +1,22 @@
+
+  a {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  a:link {
+    color:purple;
+  }
+
+  a:visited {
+    color:saddlebrown;
+  }
+
+  a:hover {
+    color:seagreen;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
