@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Cool Form</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <p>Your personal info</p>
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName">
+    <br/><br>
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName">
+    <br/><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <br/><br>
+    <label for="cellPhone">Cell Phone</label>
+    <input type="tel" id="cellPhone" name="cellPhone">
+    <br/><br>
+    <label for="cars">How many cars do you own?</label>
+    <input type="number" id="cars" name="cars" min="0" max="10">
+    <br/><br>
+    <label for="dob">What is your date of birth?</label>
+    <input type="date" id="dob" name="dob" value="mm/dd/yyyy">
+    <br/>
+
+    <p>Check what you favorite type(s) of food is(are)</p>
+
+    <input type="checkbox" name="cusine" value="Thai">Thai
+    <input type="checkbox" name="cusine" value="Mexican">Mexican
+    <input type="checkbox" name="cusine" value="Chinese">Chinese
+    <input type="checkbox" name="cusine" value="Indian">Indian
+    <input type="checkbox" name="cusine" value="Other">Other
+    
+
+    <p>What is your most favorite color?</p>
+
+    <input type="radio" name="color" value="red">red
+    <input type="radio" name="color" value="blue">blue
+    <input type="radio" name="color" value="green">green
+    <input type="radio" name="color" value="yellow">yellow
+    <input type="radio" name="color" value="purple">purple
+
+    <p>Select your shirt size</p>
+
+     <select name="size" id="size">
+       <option value="1">Very Small</option>
+       <option value="2"> Small</option>
+       <option value="3">Medium</option>
+       <option value="4">Large</option>
+       <option value="5">Extra Large</option>
+       <option value="6">Extra Extra Large</option>
+     </select>
+
+
+    <!-- password section -->
+
+    <p>Please enter your Username and Password</p>
+
+    <label for="username">Username:</label>&nbsp;
+    <input type="text" id="username" name="username">&nbsp;
+
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+     <br><br>
+    <input type="=submit" value="I'm all in!">
+    
+  </form>
+  
+</body>
+</html>
