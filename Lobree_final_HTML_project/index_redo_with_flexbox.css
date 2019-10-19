@@ -1,0 +1,41 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div.outer-wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+h1 {
+  margin-bottom: 5%;
+}
+
+div.inner-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div.t-shirt {
+  /* text-align: center; */
+  border: 1px solid black;
+  width: 20%;
+  margin-bottom: 5%; 
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 4% 3%;
+  font-size: 1.1em;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
